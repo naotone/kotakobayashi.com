@@ -117,16 +117,23 @@ $font-XXS:  9px
 
 $colorh1: #121212
 $colorBlack: rgba(#121212, 0.85)
+$colorWhite: rgba(#ffffff, 0.85)
 $colorUnderline: rgba(#121212, 0.5)
 $colorGray: rgba(#121212, 0.5)
 
 $color-background: rgba(#fff, 0)
 $color-selection: #b4d4fe
+
+
+article a:not(.noUnderline)
+  color: $colorBlack
+  &:hover
+    background: none
+    opacity: 0.8
+
 article a:not(.noUnderline)
   @include link-underline($color-background, $colorBlack, $colorUnderline, $color-selection)
 
-a
-  color: $colorBlack
 
 p
   line-height: 127%
