@@ -69,11 +69,11 @@ function mouseOver() {
           if (i % 2 == 0) {
             var tween = new TWEEN.Tween(material[i]).to({
               rotation: "-" + Math.PI
-            }, 1000).easing(TWEEN.Easing.Quintic.InOut);
+            }, 1000).easing(TWEEN.Easing.Quintic.Out);
           } else {
             var tween = new TWEEN.Tween(material[i]).to({
               rotation: "+" + Math.PI
-            }, 1000).easing(TWEEN.Easing.Quintic.InOut);
+            }, 1000).easing(TWEEN.Easing.Quintic.Out);
           }
           if (i >= counter - 1) {
             tween.onComplete(function() {

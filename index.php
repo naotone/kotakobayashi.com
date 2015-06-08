@@ -4,8 +4,6 @@
 * @subpackage KotaKobayashi
 * @since KotaKobayashi 1.0
 */
-
-
 get_header(); ?>
 <article>
   <h1><?php the_title()?></h1>

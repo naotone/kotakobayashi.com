@@ -4,7 +4,6 @@
 * @subpackage KotaKobayashi
 * @since KotaKobayashi 1.0
 */
- */
 ?>
 <!--
 Design: Kora Kobayashi
